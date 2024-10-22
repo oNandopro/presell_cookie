@@ -37,8 +37,8 @@ a {
 /* Header */
 header {
     display: flex;
-    background-color: #BEE1F5 ;
-    color: blac;
+    background-color: #000000 ;
+    color: #2F98CE;
     padding: 20px;
     width: 100%;
     font-size: 1.5em;
@@ -138,10 +138,8 @@ footer div p a {
         font-size: 1.2em;
         width: 300px;
     }
-    footer {
-        font-size: 0.6em;
-    }
     #container_footer {
+        font-size: 0.7em;
         height: 50px;
     }
 }
