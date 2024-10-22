@@ -85,7 +85,7 @@ p {
     transition: transform .2s ease;
 }
 .button:hover {
-    color: #266155;
+    color: black;
     transform: scale(1.03);
 }
 .sec_tablet {
@@ -110,11 +110,10 @@ footer {
     align-items: center;
     height:auto;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .div_footer_one {
-    display: flex;
-    margin-top: 30px;
+    display: none;
 }
 h4 {
     padding: 10px;
@@ -138,14 +137,55 @@ footer h4 a {
         display: none;
     }
     .sec_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url(/imagens/mobile_2.png);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.616);
+        background-blend-mode: multiply;
+    }
+    .div_cookies {
+        padding: 30px;
+        width: 90%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.938);
+        color: white
+    }
+    p {
+        margin-top: 20px;
+    }
+    .div_button {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .button button {
+        padding: 15px 15px;
+        background-color:  #FFBF00;
+        font-weight: 300;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2em; 
+        transition: transform .2s ease;
+    }
+    .button:hover {
+        color: black;
+        transform: scale(1.03);
     }
     /* SECTION FOOTER */
     .container_footer {
-        font-size: 0.5em;
+        font-size: 0.8em;
         height: 100px;
     }
     .div_footer_one {
+        display: flex;
         margin-top: 20px;
     }
     h4 {
@@ -158,7 +198,17 @@ footer h4 a {
         display: none;
     }
     .sec_tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-image: url(/imagens/tablet.png);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.616);
+        background-blend-mode: multiply;
     }
     .sec_mobile {
         display: none;
@@ -169,7 +219,7 @@ footer h4 a {
         height: 150px;
     }
     .div_footer_one {
-        margin-top: 20px;
+        display: none;
     }
     h4 {
         padding: 12px;
