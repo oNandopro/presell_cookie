@@ -1,16 +1,4 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'Quicksand';
-    src: url(/fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Inter';
-    src: url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'poppins';
-    src: url(/fonts/Poppins/Poppins-Medium.ttf) format('truetype');
-}
 * {
     margin: 0;
     padding: 0;
@@ -31,10 +19,6 @@ body {
     height: 100vh;
     margin: 0px;
     overflow: hidden;
-    background-color: #BEE1F5;
-}
-a {
-    text-decoration: none;
 }
 /* Main */
 main {
@@ -50,7 +34,7 @@ main {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url(/imagens/big_cellucare.png);
+    background-image: url(/imagens/pc.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,22 +96,13 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.div_footer_one {
-    display: none;
-}
 footer p {
     padding: 20px;
-}
-h4 {
-    padding: 10px;
 }
 .div_footer_two {
     display: flex;
 }
 footer div p a {
-    color: white;
-}
-footer h4 a {
     color: white;
 }
 /* Media Query para telas menores (até 768px) */
@@ -148,7 +123,7 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 800px;
-        background-image: url(/imagens/mobile_cellucare.png);
+        background-image: url(/imagens/mobile.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -194,9 +169,6 @@ footer h4 a {
     .div_footer_one {
         display: flex;
     }
-    h4 {
-        padding: 5px;
-    }
     footer p {
         padding: 20px;
     }
@@ -212,7 +184,7 @@ footer h4 a {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-image: url(/imagens/tablet_cellucare.png);
+        background-image: url(/imagens/tablet.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -256,11 +228,5 @@ footer h4 a {
     .container_footer {
         font-size: 1em;
         height: 150px;
-    }
-    .div_footer_one {
-        display: none;
-    }
-    h4 {
-        padding: 12px;
     }
 }
